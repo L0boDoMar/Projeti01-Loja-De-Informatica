@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Loja de Informática">
+    <meta name="author" content="André Fattore, Alice Assis, Francisco Pinheiro">
+    <meta name="keywords" content=" Informática,loja,hardware">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" contenteditable="60">
+    <script src="https://kit.fontawesome.com/8402af2abd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Loja de Informática</title>
+    <link rel="icon" href="imagens/icons8-computador-16.png">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="logo"><a href="index.html">Informática Lobo do Mar</a></h1>
+        <form action="menucentral.html" method="post">
+            <input type="text" name="Pesquisa" id="pesquisa" placeholder="Busca por nome">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-lg"></i> </a>
+            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fab fa-google fa-lg"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="#"><i class="far fa-envelope fa-lg"></i></a>
+        </div> <!-- <div>: cria uma divisão entre as tags-->
+        <!--.social-icons-->
+    </nav>
+    <main class="principal1">
+        <article class="article-contato">
+            <h4>Conte-nos suas dúvidas,<br> sugestões, e feedback.</h4>
+            <img class="imagem-ladinho" src="imagens/contato.png" alt="contate-nos">
+        </article>
+        <aside class="ladinho1">
+            <form action="#" method="post">
+                <h2>Nome</h2>
+                <input type="text" name="nome" id="nome1" placeholder="Qual seu Nome?"> <br>
+                <h2>E-mail</h2>
+                <input type="email" name="email" id="email1" placeholder="Qual seu e-mail?"> <br>
+                <h2>Apontamento</h2>
+                <input type="text" name="apontamento" id="apontamento1" placeholder="Escreva aqui seu apontamento.">
+                <button type=button class="botaoladinho">Enviar</button>
+            </form>
+        </aside>
+    </main>
+    <footer class="rodape">
+        <p>&copy; Informática do Lobo - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

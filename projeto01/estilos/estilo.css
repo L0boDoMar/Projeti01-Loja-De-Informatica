@@ -1,0 +1,1930 @@
+/* comenta com ctrl+; */
+
+/*RESET*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #00acee;
+}
+
+.logo a {
+    width: 84px;
+    height: 97px;
+    float: left;
+    background-image: url(../imagens/logo.jpeg);
+    font-size: 0;
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type="text"] {
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 10px 10px 0;
+    background-color: #487be9;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*MENU*/
+
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+/* SOCIAL ICONS */
+
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #fff;
+    float: left;
+    margin-left: 17px;
+}
+
+.social-icons .fa-facebook:hover {
+    color: #3b5998;
+}
+
+.social-icons .fa-twitter:hover {
+    color: #00acee;
+}
+
+.social-icons .fa-instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.social-icons .fa-google:hover {
+    color: #ea4335;
+}
+
+.social-icons .fa-linkedin:hover {
+    background-color: #0e76a8;
+}
+
+.social-icons .fa-envelope:hover {
+    color: rgb(61, 110, 244);
+}
+
+/* PRINCIPAL */
+
+.principal {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.sobre {
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2 {
+    margin-bottom: 15px;
+}
+
+.sobre img {
+    width: 50%;
+    float: left;
+    border-radius: 7px;
+    margin: 0 15px 5px 0;
+}
+
+.sobre p {
+    text-align: justify;
+    font-size: 1.2em;
+    color: #111;
+}
+
+/*ONDE ESTAMOS - SIDEBAR*/
+
+.onde-estamos {
+    width: 30%;
+    float: right;
+    padding: 15px 20px 10px 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.onde-estamos h2 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.onde-estamos iframe {
+    width: 100%;
+    height: 210px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.onde-estamos li {
+    color: #00acee;
+    margin-bottom: 12px;
+}
+
+/*NEWSLETTER*/
+
+.newsletter {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+
+.newsletter h3 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.newsletter p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.newsletter form {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: initial;
+    color: #fff;
+}
+
+.newsletter input::placeholder {
+    color: #0cae98;
+}
+
+.newsletter button {
+    width: 17%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+/* RODAPE */
+
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: #00acee;
+    padding: 25px 8%;
+}
+
+.rodape p {
+    color: #fff;
+}
+
+/* SERVIÇOS */
+
+.main-servicos {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.nossos-servicos {
+    width: 100%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.nossos-servicos h2 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.nossos-servicos img {
+    width: 50%;
+    float: left;
+    margin: 0 15px 5px 0;
+    border-radius: 10px;
+}
+
+.nossos-servicos p {
+    padding-right: 16px;
+    text-align: justify;
+    font-size: 1.2em;
+    color: black;
+}
+
+.servicos {
+    width: 100%;
+    padding: 16px 8%;
+    float: left;
+    background-color: black;
+}
+
+.servicos-oferecidos h2 {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 150px;
+    color: #fff;
+}
+
+.servicos-oferecidos img {
+    width: 40%;
+    float: left;
+    margin: 40px 15px 5px 0;
+    border-radius: 10px;
+}
+
+.servicos-oferecidos p {
+    padding-right: 16px;
+    text-align: justify;
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.servicos1 {
+    width: 100%;
+    padding: 16px 8%;
+    float: left;
+    background-color: black;
+}
+
+.servicos-oferecidos1 h2 {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.servicos-oferecidos1 img {
+    width: 40%;
+    float: left;
+    margin: 40px 15px 5px 0;
+    border-radius: 10px;
+}
+
+.servicos-oferecidos1 p {
+    padding-right: 16px;
+    text-align: justify;
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.orcamento {
+    width: 100%;
+    padding: 40px;
+    float: left;
+    background-color: black;
+}
+
+.orcamento button {
+    display: block;
+    margin: auto;
+}
+
+.orcamento button {
+    padding: 15px;
+    border: 1px;
+    border-color: #fff;
+    border-radius: 15px;
+}
+
+.orcamento button {
+    background-color: white;
+    cursor: pointer;
+}
+
+.orcamento a {
+    color: black;
+    font-size: 1.2em;
+}
+
+.orcamento button:hover {
+    background-color: #00acee;
+}
+
+/* FORMULARIO ORÇAMENTO */
+
+#titulo-orcamento {
+    padding: 16px 8%;
+    font-size: 1.6em;
+    color: black;
+}
+
+.formulario-orcamento {
+    width: 80%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.formulario-orcamento label {
+    margin-right: 8px;
+}
+
+.formulario-orcamento input {
+    border: 1px solid black;
+    width: 40%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#tel {
+    width: 17%;
+}
+
+.problema {
+    width: 100%;
+    float: left;
+}
+
+.problema textarea {
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#enviar {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#enviar {
+    margin: auto;
+    display: block;
+}
+
+#enviar:hover {
+    background-color: #00acee;
+}
+
+/* Produtos */
+
+.produtos {
+    padding: 16px 8%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    padding: 15px;
+    flex-basis: 32%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.produto img {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: auto
+}
+
+.produto p {
+    font: 1.3em;
+    color: #111;
+    text-align: justify;
+}
+
+.produto h4 {
+    margin-top: 3px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.produto button {
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.produto button a {
+    text-decoration: none;
+    color: black;
+}
+
+.produto button:hover {
+    background-color: #00acee;
+}
+
+/* Descrição Produtos */
+.servicos2 {
+    width: 100%;
+    padding: 16px 8%;
+    float: left;
+   
+}
+
+.servicos-oferecidos2 h2 {
+    font-size: 1.5em;
+    text-align: justify;
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 8px;
+    margin-top: 150px;
+    color: #111;
+}
+
+.servicos-oferecidos2 img {
+    width: 50%;
+    float: left;
+    margin: 40px 15px 5px 0;
+    border-radius: 10px;
+}
+
+.servicos-oferecidos2 p {
+    padding-right: 16px;
+    text-align: justify;
+    font-size: 1.3em;
+    color: #111;
+    margin-top: 8px;
+}
+.servicos-oferecidos2 button{
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.servicos-oferecidos2 button a {
+    text-decoration: none;
+    color: black;
+}
+.Info-tech{
+    padding: 16px 8%;
+}
+.Info-tech h2{
+    color: #111;
+    margin-bottom: 10px;
+}
+.Info-tech{
+    font-size: 1.1em;
+    color: black;
+    text-align: justify;
+}
+
+.servicos-oferecidos2 button:hover {
+    background-color: #00acee;
+}
+
+/* contato.html */
+
+.principal1 {
+    width: 100%;
+    padding: 16px 8%;
+}
+
+.ladinho1 h2 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 12pt;
+}
+
+.principal1 article {
+    width: 60%;
+    margin-right: 0px;
+    float: left;
+}
+
+.principal1 h4 {
+    font-size: 3.5em;
+}
+
+.ladinho1 {
+    width: 22%;
+    margin-right: 1%;
+    padding: 15px;
+    background-color: #111;
+    border-radius: 10px 0 10px 10px;
+    color: #fff;
+    float: right;
+    margin-top: 150px;
+}
+
+.ladinho1 form {
+    width: 100%;
+}
+
+.ladinho1 input {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 35px;
+}
+
+#nome1 {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+
+#email1 {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+
+#apontamento1 {
+    width: 100%;
+    padding: 5px;
+}
+
+.botaoladinho {
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    background-color: #fff;
+}
+
+.botaoladinho:hover {
+    background-color: #00acee;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 425px) {
+    .cabecalho {
+        width: 100%;
+        float: left;
+        padding: 50px 8%;
+        background-color: #00acee;
+    }
+
+    .logo a {
+        width: 84px;
+        height: 97px;
+        background-image: url(../imagens/logo.jpeg);
+        font-size: 0;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .cabecalho form {
+        width: 100%;
+        float: left;
+    }
+
+    .cabecalho input[type="text"] {
+        width: 85%;
+        float: left;
+        padding: 15px 10px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .cabecalho button {
+        width: 15%;
+        float: right;
+        padding: 15px 10px;
+        border-radius: 0 10px 10px 0;
+        background-color: #487be9;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    /* MENU RESPONSIVO */
+    .menu {
+        width: 100%;
+        float: left;
+        background-color: #111;
+        padding: 18px 8%;
+    }
+
+    .menu li {
+        float: left;
+    }
+
+    .menu li a {
+        color: #9d9d9d;
+        margin-right: 5px;
+    }
+
+    .menu li a:hover {
+        color: #fff;
+        font-size: 1em;
+    }
+
+    /* PRINCIPAL RESPONSIVO */
+
+    .principal {
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .sobre {
+        width: 100%;
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+
+    .sobre h2 {
+        margin-bottom: 15px;
+    }
+
+    .sobre img {
+        width: 100%;
+        height: 20%;
+        float: left;
+        border-radius: 7px;
+        margin: 0 15px 5px 0;
+    }
+
+    .sobre p {
+        text-align: justify;
+        font-size: 1.2em;
+    }
+
+    /*ONDE ESTAMOS - SIDEBAR*/
+
+    .onde-estamos {
+        width: 100%;
+        float: left;
+        padding: 15px 20px 10px 20px;
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+
+    .onde-estamos h2 {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .onde-estamos iframe {
+        width: 100%;
+        height: 210px;
+        margin: 20px 0;
+        border-radius: 15px;
+    }
+
+    .onde-estamos li {
+        color: #00acee;
+        margin-bottom: 12px;
+    }
+
+    /*NEWSLETTER RESPONSIVO*/
+
+    .newsletter {
+        width: 100%;
+        float: left;
+        background-color: #111;
+        padding: 50px 8%;
+    }
+
+    .newsletter h3 {
+        font-size: 1.8em;
+        color: #fff;
+    }
+
+    .newsletter p {
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    .newsletter form {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .newsletter input {
+        width: 100%;
+        margin-right: 1%;
+        margin-top: 10px;
+        padding: 15px 10px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        background-color: initial;
+        color: #fff;
+    }
+
+    .newsletter input::placeholder {
+        color: #0cae98;
+    }
+
+    .newsletter button {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #fff;
+        padding: 15px 10px;
+        border-radius: 10px;
+        float: right;
+        cursor: pointer;
+    }
+
+    /* SERVIÇOS */
+    .main-servicos {
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .nossos-servicos {
+        width: 100%;
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+
+    .nossos-servicos h2 {
+        margin-bottom: 15px;
+        color: black;
+    }
+
+    .nossos-servicos img {
+        width: 100%;
+        float: left;
+        margin: 0 15px 5px 0;
+        border-radius: 10px;
+    }
+
+    .nossos-servicos p {
+        padding-right: 16px;
+        text-align: justify;
+        font-size: 1.2em;
+        color: black;
+    }
+
+    .servicos {
+        width: 100%;
+        padding: 16px 8%;
+        float: left;
+        background-color: black;
+    }
+
+    .servicos-oferecidos h2 {
+        display: inline-block;
+        margin-bottom: 8px;
+        margin-top: 20px;
+        color: #fff;
+    }
+
+    .servicos-oferecidos img {
+        width: 100%;
+        float: left;
+        margin: 40px 15px 5px 0;
+        border-radius: 10px;
+    }
+
+    .servicos-oferecidos p {
+        padding-right: 16px;
+        text-align: justify;
+        font-size: 1.2em;
+        color: #fff;
+        margin-top: 8px;
+    }
+
+    .servicos1 {
+        width: 100%;
+        padding: 16px 8%;
+        float: left;
+        background-color: black;
+    }
+
+    .servicos-oferecidos1 h2 {
+        display: inline-block;
+        margin-bottom: 8px;
+        margin-top: 20px;
+        color: #fff;
+    }
+
+    .servicos-oferecidos1 img {
+        width: 100%;
+        float: left;
+        margin: 40px 15px 5px 0;
+        border-radius: 10px;
+    }
+
+    .servicos-oferecidos1 p {
+        padding-right: 16px;
+        text-align: justify;
+        font-size: 1.2em;
+        color: #fff;
+        margin-top: 8px;
+    }
+
+    /* Produtos */
+
+    .produtos {
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .produtos {
+        margin: 5%;
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .produtos {
+        box-shadow: 0 4px 8px (0, 0, 0, 0.2);
+        text-align: center;
+        font-family: 'roboto'sans-serif;
+        width: 100%;
+        border-radius: 10px 10px;
+    }
+
+    /* FORMULARIO ORÇAMENTO */
+
+    #titulo-orcamento {
+        padding: 16px 8%;
+        font-size: 1.6em;
+        color: black;
+    }
+
+    .formulario-orcamento {
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .formulario-orcamento label {
+        margin-right: 8px;
+    }
+
+    .formulario-orcamento input {
+        border: 1px solid black;
+        width: 60%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #tel {
+        width: 80%;
+    }
+
+    .problema {
+        width: 100%;
+        float: left;
+    }
+
+    .problema textarea {
+        border: 1px solid black;
+        width: 80%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #enviar {
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    #enviar {
+        margin: auto;
+        display: block;
+    }
+
+    #enviar:hover {
+        background-color: #00acee;
+    }
+
+    /* contato.html */
+
+    /* principal */
+
+    .principal1 {
+        width: 100%;
+        padding: 16px 8%;
+    }
+
+    .ladinho1 h2 {
+        color: white;
+        margin-bottom: 5px;
+        font-size: 1.6em;
+    }
+
+    .principal1 article {
+        width: 60%;
+        margin-right: 0px;
+        float: left;
+    }
+
+    .principal1 h4 {
+        font-size: 1.6em;
+        width: 100%;
+    }
+
+    .imagem-ladinho {
+        width: 100%;
+    }
+
+    .ladinho1 {
+        width: 100%;
+        margin-right: 1%;
+        padding: 15px;
+        background-color: #111;
+        border-radius: 10px 0 10px 10px;
+        color: #fff;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .article-contato {
+        width: 100px;
+    }
+
+    .ladinho1 form {
+        width: 100%;
+    }
+
+    .ladinho1 input {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 35px;
+    }
+
+    #nome1 {
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #email1 {
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #apontamento1 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .botaoladinho {
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+        background-color: #fff;
+    }
+
+    .botaoladinho:hover {
+        background-color: #00acee;
+    }
+
+
+    /* PRODUTOS */
+    .servicos-oferecidos2 h2 {
+        font-size: 1.1em;
+        text-align: justify;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 8px;
+        margin-top: 150px;
+        color: #111;
+    }
+    
+    .servicos-oferecidos2 img {
+        width: 100%;
+        float: left;
+        border-radius: 10px;
+    }
+    
+    .servicos-oferecidos2 button{
+        padding: 10px 15px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* PRINCIPAL */
+
+    .principal {
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .sobre {
+        width: 100%;
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+
+    .sobre h2 {
+        margin-bottom: 15px;
+    }
+
+    .sobre img {
+        width: 100%;
+        float: left;
+        border-radius: 7px;
+        margin: 0 15px 5px 0;
+    }
+
+    .sobre p {
+        text-align: justify;
+        font-size: 1.2em;
+    }
+
+    /*ONDE ESTAMOS - SIDEBAR*/
+
+    .onde-estamos {
+        width: 100%;
+        float: left;
+        padding: 15px 20px 10px 20px;
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+
+    .onde-estamos h2 {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .onde-estamos iframe {
+        width: 100%;
+        height: 210px;
+        margin: 20px 0;
+        border-radius: 15px;
+    }
+
+    .onde-estamos li {
+        color: #00acee;
+        margin-bottom: 12px;
+    }
+
+    /* SERVIÇOS */
+
+    .main-servicos {
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .nossos-servicos {
+        width: 100%;
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+
+    .nossos-servicos h2 {
+        margin-bottom: 15px;
+        color: black;
+    }
+
+    .nossos-servicos img {
+        width: 100%;
+        float: left;
+        margin: 0 15px 5px 0;
+        border-radius: 10px;
+    }
+
+    .nossos-servicos p {
+        padding-right: 16px;
+        text-align: justify;
+        font-size: 1.2em;
+        color: black;
+    }
+
+    .servicos {
+        width: 100%;
+        padding: 16px 8%;
+        float: left;
+        background-color: black;
+    }
+
+    .servicos-oferecidos h2 {
+        display: inline-block;
+        margin-bottom: 8px;
+        margin-top: 10px;
+        color: #fff;
+    }
+
+    .servicos-oferecidos img {
+        width: 100%;
+        height: 300px;
+        float: left;
+        margin: 40px 15px 5px 0;
+        border-radius: 10px;
+    }
+
+    .servicos-oferecidos p {
+        padding-right: 16px;
+        text-align: justify;
+        font-size: 1.2em;
+        color: #fff;
+        margin-top: 8px;
+    }
+
+    .servicos1 {
+        width: 100%;
+        padding: 16px 8%;
+        float: left;
+        background-color: black;
+    }
+
+    .servicos-oferecidos1 h2 {
+        display: inline-block;
+        margin-bottom: 8px;
+        margin-top: 10px;
+        color: #fff;
+    }
+
+    .servicos-oferecidos1 img {
+        width: 100%;
+        height: 300px;
+        float: left;
+        margin: 40px 15px 5px 0;
+        border-radius: 10px;
+    }
+
+    .servicos-oferecidos1 p {
+        padding-right: 16px;
+        text-align: justify;
+        font-size: 1.2em;
+        color: #fff;
+        margin-top: 8px;
+    }
+
+    .orcamento {
+        width: 100%;
+        padding: 40px;
+        float: left;
+        background-color: black;
+    }
+
+    .orcamento button {
+        display: block;
+        margin: auto;
+    }
+
+    .orcamento button {
+        padding: 15px;
+        border: 1px;
+        border-color: #fff;
+        border-radius: 15px;
+    }
+
+    .orcamento button {
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .orcamento a {
+        color: black;
+        font-size: 1.2em;
+    }
+
+    .orcamento button:hover {
+        background-color: #00acee;
+    }
+
+    /* FORMULARIO ORÇAMENTO */
+
+    #titulo-orcamento {
+        padding: 16px 8%;
+        font-size: 1.6em;
+        color: black;
+    }
+
+    .formulario-orcamento {
+        width: 80%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .formulario-orcamento label {
+        margin-right: 8px;
+    }
+
+    .formulario-orcamento input {
+        border: 1px solid black;
+        width: 40%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #tel {
+        width: 17%;
+    }
+
+    .problema {
+        width: 100%;
+        float: left;
+    }
+
+    .problema textarea {
+        border: 1px solid black;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #enviar {
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    #enviar {
+        margin: auto;
+        display: block;
+    }
+
+    #enviar:hover {
+        background-color: #00acee;
+    }
+
+    /* contato.html */
+
+    .principal1 {
+        width: 100%;
+        padding: 16px 8%;
+    }
+
+    .ladinho1 h2 {
+        color: white;
+        margin-bottom: 5px;
+        font-size: 12pt;
+    }
+
+    .imagem-ladinho {
+        width: 60%;
+    }
+
+    .principal1 article {
+        width: 60%;
+        margin-right: 0px;
+        float: left;
+    }
+
+    .principal1 h4 {
+        width: 60%;
+        font-size: 2.5em;
+    }
+
+    .ladinho1 {
+        width: 30%;
+        margin-right: 1%;
+        padding: 15px;
+        background-color: #111;
+        border-radius: 10px 0 10px 10px;
+        color: #fff;
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .ladinho1 form {
+        width: 100%;
+    }
+
+    .ladinho1 input {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 35px;
+    }
+
+    #nome1 {
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #email1 {
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #apontamento1 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .botaoladinho {
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+        background-color: #fff;
+    }
+
+    .botaoladinho:hover {
+        background-color: #00acee;
+    }
+
+    /* PRODUTOS */
+
+    .servicos2 {
+        width: 100%;
+        padding: 16px 8%;
+        float: left;
+       
+    }
+    
+    .servicos-oferecidos2 h2 {
+        font-size: 1.5em;
+        text-align: justify;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 8px;
+        margin-top: 150px;
+        color: #111;
+    }
+    
+    .servicos-oferecidos2 img {
+        width: 100%;
+        float: left;
+        border-radius: 10px;
+    }
+    
+    
+
+
+
+}
+
+@media screen and (min-width: 2560px) {
+    /* CABEÇALHO */
+
+    .cabecalho {
+        width: 100%;
+        float: left;
+        padding: 50px 8%;
+        background-color: #00acee;
+    }
+
+    .logo a {
+        width: 130px;
+        height: 150px;
+        float: left;
+        background-image: url(../imagens/logo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 0;
+    }
+
+    .cabecalho form {
+        width: 30%;
+        float: right;
+    }
+
+    .cabecalho input[type="text"] {
+        width: 85%;
+        float: left;
+        padding: 25px 15px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .cabecalho button {
+        width: 15%;
+        float: right;
+        padding: 25px 15px;
+        border-radius: 0 10px 10px 0;
+        background-color: #487be9;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    #pesquisa {
+        font-size: 1.6em;
+    }
+
+    /*MENU*/
+
+    .menu {
+        width: 100%;
+        float: left;
+        background-color: #111;
+        padding: 28px 8%;
+    }
+
+    .menu li {
+        float: left;
+    }
+
+    .menu li a {
+        color: #9d9d9d;
+        margin-right: 25px;
+        font-size: 1.6em;
+    }
+
+    .menu li a:hover {
+        color: #fff;
+        font-size: 1.8em;
+    }
+
+    /* SOCIAL ICONS */
+
+    .social-icons {
+        float: right;
+    }
+
+    .social-icons a {
+        color: #fff;
+        float: left;
+        margin-left: 17px;
+    }
+
+    .social-icons .fa-facebook:hover {
+        color: #3b5998;
+    }
+
+    .social-icons .fa-twitter:hover {
+        color: #00acee;
+    }
+
+    .social-icons .fa-instagram:hover {
+        background: #f09433;
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    }
+
+    .social-icons .fa-google:hover {
+        color: #ea4335;
+    }
+
+    .social-icons .fa-linkedin:hover {
+        background-color: #0e76a8;
+    }
+
+    .social-icons .fa-envelope:hover {
+        color: rgb(61, 110, 244);
+    }
+
+    /* PRINCIPAL */
+
+    .principal {
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .sobre {
+        width: 70%;
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+
+    .sobre h2 {
+        font-size: 2.2em;
+        margin-bottom: 15px;
+    }
+
+    .sobre img {
+        width: 50%;
+        float: left;
+        border-radius: 7px;
+        margin: 0 15px 5px 0;
+    }
+
+    .sobre p {
+        text-align: justify;
+        font-size: 2em;
+    }
+
+    /*ONDE ESTAMOS - SIDEBAR*/
+
+    .onde-estamos {
+        width: 30%;
+        float: right;
+        padding: 15px 20px 10px 20px;
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+
+    .onde-estamos h2 {
+        font-size: 2.2em;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .onde-estamos {
+        font-size: 2em;
+    }
+
+    .onde-estamos iframe {
+        width: 100%;
+        height: 310px;
+        margin: 20px 0;
+        border-radius: 15px;
+
+    }
+
+    .onde-estamos li {
+        color: #00acee;
+        margin-bottom: 12px;
+    }
+
+    /*NEWSLETTER*/
+
+    .newsletter {
+        width: 100%;
+        float: left;
+        background-color: #111;
+        padding: 50px 8%;
+    }
+
+    .newsletter h3 {
+        font-size: 1.8em;
+        color: #fff;
+    }
+
+    .newsletter p {
+        color: #fff;
+        font-size: 1.5em;
+    }
+
+    .newsletter form {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .newsletter input {
+        width: 40%;
+        margin-right: 1%;
+        padding: 25px 15px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        background-color: initial;
+        color: #fff;
+    }
+
+    .newsletter input::placeholder {
+        font-size: 1.5em;
+        color: #0cae98;
+    }
+
+    .newsletter button {
+        width: 17%;
+        background-color: #fff;
+        padding: 25px 15px;
+        border-radius: 10px;
+        float: right;
+        cursor: pointer;
+        font-size: 1.5em;
+    }
+
+    /* RODAPE */
+
+    .rodape {
+        width: 100%;
+        float: left;
+        background-color: #00acee;
+        padding: 50px 8%;
+    }
+
+    .rodape p {
+        font-size: 1.5em;
+        color: #fff;
+    }
+
+    /* SERVIÇOS */
+
+    .main-servicos {
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .nossos-servicos {
+        width: 100%;
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+
+    .nossos-servicos h2 {
+        font-size: 2.2em;
+        margin-bottom: 15px;
+        color: black;
+    }
+
+    .nossos-servicos img {
+        width: 50%;
+        float: left;
+        margin: 0 15px 5px 0;
+        border-radius: 10px;
+    }
+
+    .nossos-servicos p {
+        padding-right: 16px;
+        text-align: justify;
+        font-size: 2em;
+        color: black;
+    }
+
+    .servicos {
+        width: 100%;
+        padding: 16px 8%;
+        float: left;
+        background-color: black;
+    }
+
+    .servicos-oferecidos h2 {
+        font-size: 2.2em;
+        display: inline-block;
+        margin-bottom: 8px;
+        margin-top: 250px;
+        color: #fff;
+    }
+
+    .servicos-oferecidos img {
+        width: 40%;
+        float: left;
+        margin: 40px 15px 5px 0;
+        border-radius: 10px;
+    }
+
+    .servicos-oferecidos p {
+        padding-right: 16px;
+        text-align: justify;
+        font-size: 2em;
+        color: #fff;
+        margin-top: 8px;
+    }
+
+    .servicos1 {
+        width: 100%;
+        padding: 16px 8%;
+        float: left;
+        background-color: black;
+    }
+
+    .servicos-oferecidos1 h2 {
+        display: inline-block;
+        margin-bottom: 8px;
+        margin-top: 180px;
+        color: #fff;
+        font-size: 2.2em;
+    }
+
+    .servicos-oferecidos1 img {
+        width: 40%;
+        float: left;
+        margin: 40px 15px 5px 0;
+        border-radius: 10px;
+    }
+
+    .servicos-oferecidos1 p {
+        padding-right: 16px;
+        text-align: justify;
+        font-size: 2em;
+        color: #fff;
+        margin-top: 8px;
+    }
+
+    .orcamento {
+        width: 100%;
+        padding: 40px;
+        float: left;
+        background-color: black;
+    }
+
+    .orcamento button {
+        display: block;
+        margin: auto;
+    }
+
+    .orcamento button {
+        padding: 25px;
+        font-size: 1.8em;
+        border: 1px;
+        border-color: #fff;
+        border-radius: 15px;
+    }
+
+    .orcamento button {
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .orcamento a {
+        color: black;
+        font-size: 1.2em;
+    }
+
+    .orcamento button:hover {
+        background-color: #00acee;
+    }
+
+    /* FORMULARIO ORÇAMENTO */
+
+    #titulo-orcamento {
+        padding: 16px 8%;
+        font-size: 2.2em;
+        color: black;
+    }
+
+    .formulario-orcamento {
+        width: 80%;
+        float: left;
+        padding: 16px 8%;
+    }
+
+    .formulario-orcamento label {
+        margin-right: 8px;
+        font-size: 2em;
+    }
+
+    .formulario-orcamento input {
+        border: 1px solid black;
+        width: 40%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+
+    #tel {
+        width: 17%;
+    }
+
+    .problema {
+        width: 100%;
+        float: left;
+    }
+
+    .problema textarea {
+        border: 1px solid black;
+        width: 100%;
+        height: 600px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #enviar {
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    #enviar {
+        margin: auto;
+        display: block;
+    }
+
+    #enviar:hover {
+        background-color: #00acee;
+    }
+
+    /* contato.html */
+
+    .principal1 {
+        width: 100%;
+        padding: 16px 8%;
+    }
+
+    .ladinho1 h2 {
+        color: white;
+        margin-bottom: 5px;
+        font-size: 2.2em;
+    }
+
+    .principal1 article {
+        width: 60%;
+        margin-right: 0px;
+        float: left;
+    }
+
+    .principal1 h4 {
+        font-size: 3.5em;
+    }
+
+    .ladinho1 {
+        width: 22%;
+        margin-right: 1%;
+        padding: 30px;
+        background-color: #111;
+        border-radius: 10px 0 10px 10px;
+        color: #fff;
+        float: right;
+        margin-top: 150px;
+    }
+
+    .ladinho1 form {
+        width: 100%;
+    }
+
+    .ladinho1 input {
+        padding: 40px;
+        margin-bottom: 35px;
+    }
+
+    #nome1 {
+        font-size: 1.5em;
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #email1 {
+        font-size: 1.5em;
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #apontamento1 {
+        font-size: 1.5em;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .botaoladinho {
+        font-size: 1.5em;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+        background-color: #fff;
+    }
+
+    .botaoladinho:hover {
+        background-color: #00acee;
+    }
+}

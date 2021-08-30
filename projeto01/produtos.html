@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Loja de Informática">
+    <meta name="author" content="André Fattore, Alice Assis, Francisco Pinheiro">
+    <meta name="keywords" content=" Informática,loja,hardware">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" contenteditable="60">
+    <script src="https://kit.fontawesome.com/8402af2abd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Loja Informática</title>
+    <link rel="icon" href="imagens/icons8-computador-16.png">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="logo"><a href="index.html">Loja de Informática</a></h1>
+        <form action="menucentral.html" method="post">
+            <input type="text" name="Pesquisa" id="pesquisa" placeholder="Busca por nome">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-lg"></i> </a>
+            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fab fa-google fa-lg"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="#"><i class="far fa-envelope fa-lg"></i></a>
+        </div> <!-- <div>: cria uma divisão entre as tags-->
+        <!--.social-icons-->
+    </nav>
+    <!--Produtos-->
+    <main>
+        <section class="produtos">
+            <section class="produto">
+                <a href="note-lenovo.html"><img src="imagens/produto1.png"></a>
+                <a href="note-lenovo.html" class="nome-produto">
+                    <p>Notebook Gamer Lenovo Intel Core i7-10750H,GTX 1650 4GB, 8GB, 512GB</p>
+                </a>
+                <h4>R$ 6.000,00</h4>
+                <button><a href="note-lenovo.html">Adicionar ao carrinho <i class="fas fa-shopping-cart"></i></a></button>
+            </section>
+            <section class="produto">
+                <a href="processador.ryzen.html"><img src="imagens/produto2.png"></a>
+                <a href="processador.ryzen.html" class="nome-produto">
+                    <p>Processador AMD Ryzen 5 5600X, Cache 35MB, 3.7GHz (4.6GHz Max Turbo), AM4</p>
+                </a>
+                <h4>R$ 2.882,00</h4>
+                <button><a href="processador.ryzen.html">Adicionar ao carrinho <i class="fas fa-shopping-cart"></i></a></button>
+            </section>
+            <section class="produto">
+                <a href="memoria-corsair-8gb.html"><img src="imagens/produto3.png"></a>
+                <a href="memoria-corsair-8gb.html" class="nome-produto">
+                    <p>Memória Corsair Vengeance LPX, 8GB, 2666MHz, DDR4, C16</p>
+                </a>
+                <h4>R$ R$ 289,00</h4>
+                <button><a href="memoria-corsair-8gb.html">Adicionar ao carrinho <i class="fas fa-shopping-cart"></i></a></button>
+            </section>
+            <section class="produto">
+                <a href="gtx-1650-asus-tuf.html"><img src="imagens/produto4.png"></a>
+                <a href="gtx-1650-asus-tuf.html" class="nome-produto">
+                    <p>Placa de Vídeo Asus NVIDIA GeForce GTX 1650, 4GB, GDDR6 </p>
+                </a>
+                <h4>R$ 2.549,00</h4>
+                <button><a href="gtx-1650-asus-tuf.html">Adicionar ao carrinho <i class="fas fa-shopping-cart"></i></a></button>
+            </section>
+            <section class="produto">
+                <a href="6600XT-MSI.html"><img src="imagens/produto5.png"></a>
+                <a href="6600XT-MSI.html" class="nome-produto">
+                    <p>Placa de Vídeo MSI Radeon RX 6600 XT Gaming X 8G, 16 Gbps, 8GB GDDR6</p>
+                </a>
+                <h4>R$ 4.219,00</h4>
+                <button><a href="6600XT-MSI.html">Adicionar ao carrinho <i class="fas fa-shopping-cart"></i></a></button>
+            </section>
+            <section class="produto">
+                <a href="ssd-falcon.html"><img src="imagens/produto6.png"></a>
+                <a href="ssd-falcon.html" class="nome-produto">
+                    <p>SSD Adata Falcon, 1TB, M.2 PCIe, Leituras: 3100MB/s e Gravações: 1500MB/s</p>
+                </a>
+                <h4>R$ R$ 879,00</h4>
+                <button><a href="ssd-falcon.html">Adicionar ao carrinho <i class="fas fa-shopping-cart"></i></a></button>
+            </section>
+    
+        </section> 
+    </main>
+    
+
+
+    <footer class="rodape">
+        <p>&copy; Informática do Lobo - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
